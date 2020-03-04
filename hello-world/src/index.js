@@ -2,7 +2,9 @@ import React from 'react';
 import './index.css';
 
 import ReactDOM from 'react-dom';
-import App from './App';
+// import App from './App';
+// import App from './Modules/NamedDefaultExports/app2';
+import App from './Modules/LibrariesReact/app';
 
 ReactDOM.render(
     <App/>,
