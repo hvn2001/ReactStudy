@@ -4,12 +4,59 @@ import './index.css';
 import ReactDOM from 'react-dom';
 // import App from './App';
 // import App from './Modules/NamedDefaultExports/app2';
-import App from './Modules/LibrariesReact/app';
+//import App from './Modules/LibrariesReact/app';
+/*
+import App from './React/ReactClassComponents/app2';
 
 ReactDOM.render(
     <App/>,
     document.getElementById('root')
 );
+*/
+
+/*
+import App from './React/ReactProps/app';
+
+ReactDOM.render(
+    <App greeting="greeting #1" anotherGreeting="greeting #2"/>,
+    document.getElementById('root')
+);
+*/
+
+// import App from './React/ReactComponentSyntax/app2';
+
+// ---------Functions as Components in React --------------
+/*
+import {App} from './React/FunctionsAsComponents/app';
+
+ReactDOM.render(
+    <App/>,
+    document.getElementById('root')
+);
+*/
+
+/*import {Greeting} from './React/FunctionsAsComponents/app2';
+
+ReactDOM.render(
+    <Greeting greeting="hello from a functional stateless component that takes props!"/>,
+    document.getElementById('root')
+);*/
+/*
+import {Greeting} from './React/FunctionsAsComponents/arrow1';
+ReactDOM.render(
+    <Greeting greeting="hello from a JS ES6 arrow function component"/>,
+    document.getElementById('root')
+);*/
+
+import {Greeting} from './React/FunctionsAsComponents/arrow2';
+
+ReactDOM.render(
+    <Greeting greeting="hello from a JavaScript ES6 arrow function without body and implicit return"/>,
+
+    document.getElementById('root')
+);
+
+
 /*
 import React from 'react';
 import './index.css';
