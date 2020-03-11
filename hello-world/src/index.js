@@ -3,8 +3,37 @@ import './index.css';
 
 import ReactDOM from 'react-dom';
 // import App from './App';
+
+// --------- Functions - Map, Reduce & Filter in React ---------
+/*
+import App from './Functions/MapReduce/app';
+ReactDOM.render(
+    <App />,
+    document.getElementById('root')
+);
+ */
+
+
+// --------- Functions - Higher-Order Functions in React ---------
+/*
+import App from './Functions/HigherOrderFunctions/app';
+
+ReactDOM.render(
+    <App/>,
+    document.getElementById('root')
+);
+*/
+
+import Counter from './Functions/HigherOrderFunctions/Counter';
+
+ReactDOM.render(
+    <Counter/>,
+    document.getElementById('root')
+);
+
+// --------- Modules ---------
 // import App from './Modules/NamedDefaultExports/app2';
-//import App from './Modules/LibrariesReact/app';
+// import App from './Modules/LibrariesReact/app';
 /*
 import App from './React/ReactClassComponents/app2';
 
@@ -25,7 +54,7 @@ ReactDOM.render(
 
 // import App from './React/ReactComponentSyntax/app2';
 
-// ---------Functions as Components in React --------------
+// --------- React - Functions as Components in React --------------
 /*
 import {App} from './React/FunctionsAsComponents/app';
 
@@ -48,6 +77,7 @@ ReactDOM.render(
     document.getElementById('root')
 );*/
 
+/*
 import {Greeting} from './React/FunctionsAsComponents/arrow2';
 
 ReactDOM.render(
@@ -55,22 +85,11 @@ ReactDOM.render(
 
     document.getElementById('root')
 );
-
-
-/*
-import React from 'react';
-import './index.css';
-
-import ReactDOM from 'react-dom';
-import Counter from './Counter.js';
-
-ReactDOM.render(
-    <Counter/>,
-    document.getElementById('root')
-);
 */
 
+
 /*
+// --------- init React ---------
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
