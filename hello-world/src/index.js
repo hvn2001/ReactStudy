@@ -4,6 +4,15 @@ import './index.css';
 import ReactDOM from 'react-dom';
 // import App from './App';
 
+// --------- Variables, Operators & Expressions - Ternary Operator in React ---------
+import App from './VariablesExpressions/TernaryOperator/app3';
+
+ReactDOM.render(
+    <App/>,
+    document.getElementById('root')
+);
+
+
 // --------- Functions - Map, Reduce & Filter in React ---------
 /*
 import App from './Functions/MapReduce/app';
@@ -68,11 +77,13 @@ ReactDOM.render(
 */
 
 // --------- React - React Component Syntax --------------
+/*
 import Counter from './React/ReactComponentSyntax/app2';
 ReactDOM.render(
     <Counter/>,
     document.getElementById('root')
 );
+*/
 
 
 // --------- React - Functions as Components in React --------------
