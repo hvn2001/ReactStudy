@@ -17,9 +17,11 @@ export default class App extends React.Component {
     }
 
     render() {
-        var changeName = setTimeout(function () {
+        setTimeout(function () {
             this.setState({lastname: 'Hood'}); // setting state after delay of 5 seconds
-        }.bind(this), 5000);
+            // TODO HVN: 'this'
+            // this.setState(state =>({lastname: 'Hood'}));
+        }.bind(this), 2000);
         return (
             <h1>{this.getName()}</h1>
         );

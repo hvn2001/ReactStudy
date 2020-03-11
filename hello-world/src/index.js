@@ -23,19 +23,23 @@ ReactDOM.render(
     document.getElementById('root')
 );
 */
-
+/*
 import Counter from './Functions/HigherOrderFunctions/Counter';
 
 ReactDOM.render(
     <Counter/>,
     document.getElementById('root')
 );
+ */
 
 // --------- Modules ---------
 // import App from './Modules/NamedDefaultExports/app2';
 // import App from './Modules/LibrariesReact/app';
+
+
+// --------- React - React Class Components ---------
 /*
-import App from './React/ReactClassComponents/app2';
+import App from './React/ReactClassComponents/app';
 
 ReactDOM.render(
     <App/>,
@@ -43,6 +47,7 @@ ReactDOM.render(
 );
 */
 
+// --------- React - React Props ---------
 /*
 import App from './React/ReactProps/app';
 
@@ -50,9 +55,25 @@ ReactDOM.render(
     <App greeting="greeting #1" anotherGreeting="greeting #2"/>,
     document.getElementById('root')
 );
+ */
+
+// --------- React - State in React ---------
+/*
+import App from './React/StateReact/app2';
+
+ReactDOM.render(
+    <App/>,
+    document.getElementById('root')
+);
 */
 
-// import App from './React/ReactComponentSyntax/app2';
+// --------- React - React Component Syntax --------------
+import Counter from './React/ReactComponentSyntax/app2';
+ReactDOM.render(
+    <Counter/>,
+    document.getElementById('root')
+);
+
 
 // --------- React - Functions as Components in React --------------
 /*

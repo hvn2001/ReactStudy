@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default class App extends React.Component {
-    getGreeting() {
+    getGreeting1() {
         return this.props.greeting;
     }
 
@@ -12,7 +12,8 @@ export default class App extends React.Component {
     render() {
         return (
             <div>
-                <h1> {this.getGreeting()} </h1>
+                <h1> {this.props.greeting} </h1>
+                <h1> {this.getGreeting1()} </h1>
                 <h2> {this.getOtherGreeting()} </h2>
             </div>
         );
